@@ -1,0 +1,86 @@
+table {
+  border: 3px solid black;
+  background-color: rgb(204, 231, 208);
+}
+table tr {
+  border: 3px solid;
+}
+table tr td {
+  border: 3px solid;
+  padding: 2em;
+  position: relative;
+}
+table tr td .img1 {
+  width: 10rem;
+  position: absolute;
+  top: 7%;
+  transform: rotate(-45deg);
+}
+table tr td .logo {
+  width: 32rem;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 40%;
+}
+table tr td .img2 {
+  width: 10rem;
+  position: absolute;
+  bottom: 7%;
+  right: 5%;
+  transform: rotate(-45deg);
+}
+table tr td .red {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border-top: 3px solid;
+  width: 4em;
+  height: 3vh;
+  background-color: rgb(232, 29, 37);
+}
+table tr td .yellow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top: 3px solid;
+  width: 4em;
+  height: 3vh;
+  background-color: #ffff00;
+}
+table tr td .orange {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-left: 3px solid;
+  width: 1.8em;
+  height: 8.5vh;
+  background-color: rgb(252, 150, 35);
+}
+table tr td .pink {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-left: 3px solid;
+  width: 1.8em;
+  height: 8.5vh;
+  background-color: rgb(231, 18, 181);
+}
+table tr td .cyan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid;
+  width: 4em;
+  height: 3vh;
+  background-color: #46b2fb;
+}
+table tr td .brown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid;
+  width: 4em;
+  height: 3vh;
+  background-color: rgb(148, 85, 56);
+}

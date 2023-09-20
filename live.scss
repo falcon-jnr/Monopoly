@@ -1,0 +1,293 @@
+
+    table{
+        border: 3px solid black;
+        background-color: rgb(167, 203, 167);
+        // width: 70%;
+        // height: 50vh;
+        tr{
+            border: 3px solid;
+            .top-left{
+                height: 3vh;
+            }
+            .top-right{
+                position: relative;
+                // width: 3em;
+                img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .bottom-right{
+                position: relative;
+                // width: 15%;
+                // color: red;
+                // background-color: aquamarine;
+                // img{
+                    // position: absolute;
+                //     width: 100%;
+                //     height: 100%;
+                //     top: 0;
+                //     left: 0;
+                // }
+            }
+            td{
+                border: 3px solid;
+                padding: 2em;
+                // height: 1vh;
+                // width: 2em;
+                position: relative;
+                
+                .chance-purple-bottom{
+                    position: absolute;
+                    top: 0.5em;
+                    left: 8px;
+                    width: 3em;
+                    height: 80%;
+                }
+                .chance-blue{
+                    position: absolute;
+                    // top: 1em;
+                    bottom: -15%;
+                    left: 35%;
+                    // right: 0;
+                    height: 130%;
+                    width: 30%;
+                    // height: 80%;
+                    transform: rotate(90deg);
+                }
+                // .water-drop{
+                //     margin: 0;
+                //     padding: 0;
+                //     width: 5em;
+                //     height: 100%;
+                //     // border: thin solid;
+                //     p{
+                //         font-size: 8px;
+                //         margin-left: 2em;
+                //     }
+                //     // img{
+                //     //     width: 20%;
+                //     // }
+                // }
+                .monopoly14-top{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    width: 4em;
+                    height: 100%;
+                    transform: rotate(180deg);
+                }
+                .monopoly14-right{
+                    position: absolute;
+                    // bottom: -1em;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    // transform: rotate(-90deg);
+                }
+                .monopoly14-down{
+                    position: absolute;
+                    // bottom: -1.5em;
+                    left: 0;
+                    // right: 0;
+                    top: 0;
+                    width: 4em;
+                    height: 100%;
+                    // transform: rotate(-90deg);
+                }
+                .chance-purple{
+                    position: absolute;
+                    top: 0.5em;
+                    left: 8px;
+                    width: 3em;
+                    height: 80%;
+                    transform: rotate(180deg);
+                }
+               
+                .img{
+                    position: absolute;
+                    top: 3em;
+                    left: 7em;
+                    transform: rotate(-35deg);
+                    img:nth-of-type(1){
+                        width: 40%;
+                        margin-left: 5em;
+                        margin-bottom: 1em;
+                    }
+                    img:nth-of-type(2){
+                        width: 80%;
+                    }
+                    img:nth-of-type(3){
+                        margin-left: 5em;
+                        margin-top: 5em;
+                        width: 40%;
+                    }
+                    
+
+                }
+                .yellow{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: #ffff00;
+                    border-bottom: 3px solid;
+                    height: 5vh;
+                    width: 100%;
+                }
+                .bulb{
+                    position: absolute;
+                    top: 0;
+                    // bottom: -1.6em;
+                    left: 0;
+                    // right: 0;
+                    width: 100%;
+                    height: 100%;
+                    // transform: rotate(-90deg);
+                }
+
+                .red{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 5vh;
+                    width: 100%;
+                    background-color: #ff0000;
+                    border-bottom: 3px solid;
+                }
+                .brown{
+                    background-color: #a52a2a;
+                    border-top: 3px solid;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 5vh;
+                    width: 100%;
+                }
+                .blue{
+                    background-color: #add8e6;
+                    border-top: 3px solid;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 5vh;
+                    width: 100%;
+                }
+                .light-blue{
+                    background-color: #0000ff;
+                    border-left: 3px solid;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 30%;
+                    
+                }
+                .light-blue-text{
+                    position: absolute;
+                    // border: thin solid;
+                    text-align: center;
+                    transform: rotate(90deg);
+                    bottom: 0;
+                    top: 0;
+                    right: 1.5em;
+                    // left: 0;
+                    width: 60%;
+                    // height: 10vh;
+                    p{
+                        line-height: 3;
+                       font-size: 9px;
+                       font-weight: 500;
+                    }
+                }
+                
+                .green{
+                    background-color: green;
+                    border-left: 3px solid;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 30%;
+                }
+                .green-text{
+                    position: absolute;
+                    // border: thin solid;
+                    text-align: center;
+                    transform: rotate(90deg);
+                    bottom: 0;
+                    top: 0;
+                    right: 1.5em;
+                    // left: 0;
+                    width: 60%;
+                    // height: 10vh;
+                    p{
+                        line-height: 2;
+                       font-size: 9px;
+                       font-weight: 500;
+                    }
+                }
+                .pink{
+                    background-color: pink;
+                    border-right: 3px solid;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 30%;
+                }
+                .pink-text{
+                    position: absolute;
+                    // border: thin solid;
+                    text-align: center;
+                    transform: rotate(-90deg);
+                    bottom: 0;
+                    top: 0;
+                    left: 1.5em;
+                    // left: 0;
+                    width: 60%;
+                    // height: 10vh;
+                    p{
+                        line-height: 1.7;
+                       font-size: 9px;
+                       font-weight: 500;
+                    }
+                }
+                .orange{
+                    background-color: orange;
+                    border-right: 3px solid;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 30%;
+                }
+                .orange-text{
+                    position: absolute;
+                    // border: thin solid;
+                    text-align: center;
+                    transform: rotate(-90deg);
+                    bottom: 0;
+                    top: 0;
+                    left: 1.5em;
+                    // left: 0;
+                    width: 60%;
+                    // height: 10vh;
+                    p{
+                        line-height: 1.7;
+                       font-size: 9px;
+                       font-weight: 500;
+                    }
+                }
+                
+    
+    
+        }
+    }
+}

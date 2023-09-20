@@ -1,0 +1,230 @@
+table {
+  border: 3px solid black;
+  background-color: rgb(167, 203, 167);
+}
+table tr {
+  border: 3px solid;
+}
+table tr .top-left {
+  height: 3vh;
+}
+table tr .top-right {
+  position: relative;
+}
+table tr .top-right img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+table tr .bottom-right {
+  position: relative;
+}
+table tr td {
+  border: 3px solid;
+  padding: 2em;
+  position: relative;
+}
+table tr td .chance-purple-bottom {
+  position: absolute;
+  top: 0.5em;
+  left: 8px;
+  width: 3em;
+  height: 80%;
+}
+table tr td .chance-blue {
+  position: absolute;
+  bottom: -15%;
+  left: 35%;
+  height: 130%;
+  width: 30%;
+  transform: rotate(90deg);
+}
+table tr td .monopoly14-top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 4em;
+  height: 100%;
+  transform: rotate(180deg);
+}
+table tr td .monopoly14-right {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+table tr td .monopoly14-down {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4em;
+  height: 100%;
+}
+table tr td .chance-purple {
+  position: absolute;
+  top: 0.5em;
+  left: 8px;
+  width: 3em;
+  height: 80%;
+  transform: rotate(180deg);
+}
+table tr td .img {
+  position: absolute;
+  top: 3em;
+  left: 7em;
+  transform: rotate(-35deg);
+}
+table tr td .img img:nth-of-type(1) {
+  width: 40%;
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
+table tr td .img img:nth-of-type(2) {
+  width: 80%;
+}
+table tr td .img img:nth-of-type(3) {
+  margin-left: 5em;
+  margin-top: 5em;
+  width: 40%;
+}
+table tr td .yellow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffff00;
+  border-bottom: 3px solid;
+  height: 5vh;
+  width: 100%;
+}
+table tr td .bulb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+table tr td .red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+  background-color: #ff0000;
+  border-bottom: 3px solid;
+}
+table tr td .brown {
+  background-color: #a52a2a;
+  border-top: 3px solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+}
+table tr td .blue {
+  background-color: #add8e6;
+  border-top: 3px solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+}
+table tr td .light-blue {
+  background-color: #0000ff;
+  border-left: 3px solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+}
+table tr td .light-blue-text {
+  position: absolute;
+  text-align: center;
+  transform: rotate(90deg);
+  bottom: 0;
+  top: 0;
+  right: 1.5em;
+  width: 60%;
+}
+table tr td .light-blue-text p {
+  line-height: 3;
+  font-size: 9px;
+  font-weight: 500;
+}
+table tr td .green {
+  background-color: green;
+  border-left: 3px solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+}
+table tr td .green-text {
+  position: absolute;
+  text-align: center;
+  transform: rotate(90deg);
+  bottom: 0;
+  top: 0;
+  right: 1.5em;
+  width: 60%;
+}
+table tr td .green-text p {
+  line-height: 2;
+  font-size: 9px;
+  font-weight: 500;
+}
+table tr td .pink {
+  background-color: pink;
+  border-right: 3px solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+}
+table tr td .pink-text {
+  position: absolute;
+  text-align: center;
+  transform: rotate(-90deg);
+  bottom: 0;
+  top: 0;
+  left: 1.5em;
+  width: 60%;
+}
+table tr td .pink-text p {
+  line-height: 1.7;
+  font-size: 9px;
+  font-weight: 500;
+}
+table tr td .orange {
+  background-color: orange;
+  border-right: 3px solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+}
+table tr td .orange-text {
+  position: absolute;
+  text-align: center;
+  transform: rotate(-90deg);
+  bottom: 0;
+  top: 0;
+  left: 1.5em;
+  width: 60%;
+}
+table tr td .orange-text p {
+  line-height: 1.7;
+  font-size: 9px;
+  font-weight: 500;
+}
